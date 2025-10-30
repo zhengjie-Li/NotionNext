@@ -19,7 +19,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '一只想探索世界的🐔', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://ruike.online', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'ai, 博客', // 网站关键词 英文逗号隔开
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://obsidian-1317897030.cos.ap-guangzhou.myqcloud.com/ruike/seededit-3.0_%E7%BB%99%E8%BF%99%E4%B8%AA%E9%B8%A1%E5%B8%A6%E4%B8%8A_ai_%E7%9C%BC%E9%95%9C%EF%BC%8C%E5%8F%A6%E5%A4%96%E4%B8%BB%E4%BD%93%E5%86%8D%E5%B0%8F%E4%B8%80.jpg', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
   BEI_AN_GONGAN: process.env.NEXT_PUBLIC_BEI_AN_GONGAN || '', // 公安备案号，例如 '浙公网安备3xxxxxxxx8号'
